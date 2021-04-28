@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: cursive;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 300px;
+    height: 80px;
+    background-color: rgb(159,197,248);
+    color: white;
+}
+.wtext{
+    margin-right: 80px;
+    font-size: 35px;
+}
+.citybar{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 27px;
+}
+.citybar select{
+    width: fit-content;
+    height: fit-content;
+}
+.citydegrees{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#degrees{
+    margin-left: 30px;
+}
+.bar{
+    
+    background-color: black;
+    color: black;
+    width: 900px;
+    margin-left: 310px;
+    border-radius: 100px;
+    height: 3px;
+}
+.weathercenter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 200px;
+}
+.weatherbox{
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+    margin: 30px;
+}
+.weatherbox img{
+    height: 160px;
+    border-radius: 300px;
+}
+.tempfor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.high{
+    color: red;
+}
+.low{
+    color: blue;
+}
+.cookiebox{
+    border: solid black 3px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    padding: 15px;
+    margin-left: 250px;
+    position: fixed;
+    bottom: 35px;
+}
+.cookiebut{
+    width: 250px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgb(159,197,248);
+    box-shadow: black 3px 4px 0px;
+}
+.cookietext h2{
+    font-size: 28px;
+}
+.cookietext p{
+    font-size: 28px;
+}
+.read{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Navbar">
+            <h1 class="wtext">DojoWeather</h1>
+            <h2>Burbank</h2>
+            <h2>Chicago</h2>
+            <h2>Dallas</h2>
+        </div>
+        <div class="citybar">
+            <h3>San Jose</h3>
+            <div class="citydegrees">
+                <p>show temperature in</p>
+                <select name="temp" id="degrees">
+                    <option>&#176;C</option>
+                    <option>&#176;F</option>
+                </select>
+            </div>       
+        </div>
+        <div class="bar"></div> 
+        <div class="weathercenter">
+            <div class="weatherbox">
+                <h1>Today</h1>
+                <img src="../images/some_rain.png" alt="rain">
+                <h3>some rain</h5>
+                <div class="tempfor">
+                    <h2 class="high">&#176;75</h2>
+                    <h2 class="low">&#176;65</h2>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h1>Today</h1>
+                <img src="../images/some_sun.png" alt="sun">
+                <h3>some sun</h5>
+                <div class="tempfor">
+                    <h2 class="high">&#176;80</h2>
+                    <h2 class="low">&#176;66</h2>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h1>Today</h1>
+                <img src="../images/some_clouds.png" alt="clouds">
+                <h3>some clouds</h5>
+                <div class="tempfor">
+                    <h2 class="high">&#176;69</h2>
+                    <h2 class="low">&#176;61</h2>
+                </div>
+            </div>
+            <div class="weatherbox">
+                <h1>Today</h1>
+                <img src="../images/some_sun.png" alt="sun">
+                <h3>some sun</h5>
+                <div class="tempfor">
+                    <h2 class="high">&#176;78</h2>
+                    <h2 class="low">&#176;70</h2>
+                </div>
+            </div> 
+        </div>
+        <div class="cookiebox" id="byebox">
+            <img src="../images/cookie.png" alt="cookie">
+            <div class="cookietext">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span class="read">Read More</span></p>
+            </div>
+            <button class="cookiebut" onclick="removebox()">I Accept</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
